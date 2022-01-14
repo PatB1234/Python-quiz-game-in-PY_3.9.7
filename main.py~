@@ -8,7 +8,6 @@ score = 0
 
 if (start == "n") or (start == "N"):
 
-    print("I hope to see you soon!")
     quit()
 
 for a in range(len(jokeQuestions) + 10):
@@ -26,10 +25,10 @@ for a in range(len(jokeQuestions) + 10):
 
     YN = input("Would you like to continue Y or N?")
 
-    if (YN.lower() == "y"):
+    if (YN.lower() == "Y"):
 
         pass
-    elif (YN.lower() == "n"):
+    elif (YN.lower() == "N"):
 
         quit()
     else:
